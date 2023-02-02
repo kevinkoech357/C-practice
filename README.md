@@ -1,0 +1,3 @@
+ On this repository, you will find all my practices in the C programmi…
+
+…ng language. Feel free to reach out concerning any mistakes you might find. Thank you.
