@@ -1,9 +1,14 @@
-#include <stdio.h>
-#include <math.h>
+/**
+ * Author: Kevin Koech
+ *
+ * main - entry point
+ *
+ * Description: adds two integers that the user input
+ *
+ * Return: sum
+ */
 
-// Author: Kevin Koech
-// Date: 02/02/2023
-// This program add two numbers that the user will enter
+#include <stdio.h>
 
 int main()
 {
@@ -12,14 +17,14 @@ int main()
 	int sum;
 
 	    printf("Enter a: \n");
-            scanf("%d",&a);
+            scanf("%d", &a);
 
 	    printf("Enter b: \n");
             scanf("%d", &b);
 
 	    //Addition
 	    sum= a + b;
-	    printf("%d + %d= %d\n", a, b, sum);
+	    printf("%d + %d = %d \n", a, b, sum);
 
 	    return sum;
 }
